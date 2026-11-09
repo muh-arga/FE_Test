@@ -19,7 +19,7 @@ export function Pagination({ pagination, pathname, searchParams }: PaginationPro
   return (
     <nav aria-label="Navigasi halaman" className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
       <p className="text-sm text-muted">
-        Menampilkan <span className="font-medium text-ink">{from}–{to}</span> dari{" "}
+        Menampilkan <span className="font-medium text-ink">{from}-{to}</span> dari{" "}
         <span className="font-medium text-ink">{formatNumber(totalItems)}</span> data
       </p>
 
